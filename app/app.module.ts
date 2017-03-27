@@ -7,7 +7,7 @@ import { EqualValidator } from './User/equal-validator.directive';
 import { CreateUserComponent } from './User/create-user.component';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule ],
   declarations: [AppComponent, CreateUserComponent, EqualValidator],
   bootstrap: [AppComponent]
 })

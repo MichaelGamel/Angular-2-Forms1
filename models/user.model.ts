@@ -1,4 +1,4 @@
-export interface IUser {
+export interface IUser  {
     firstName: string,
     lastName: string,
     birthDate: string,
@@ -9,7 +9,7 @@ export interface IUser {
     country: number,
     favorites: IFavorite[],
     notes: string,
-    isActive: boolean,
+    isActive: boolean,  
 }
 
 
